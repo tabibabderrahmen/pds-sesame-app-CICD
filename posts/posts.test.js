@@ -1,6 +1,5 @@
 const request = require("supertest");
-
-const app = require("./index");
+const app = require("./app");
 
 describe("Creating and fetching a post", () => {
   let postId;
