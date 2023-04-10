@@ -17,7 +17,7 @@ spec:
                 name: posts-clusterip-srv
                 port:
                   number: 4000
-          - path: /posts
+          - path: /posts 
             pathType: Prefix
             backend:
               service:
